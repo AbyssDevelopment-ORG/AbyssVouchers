@@ -1,0 +1,62 @@
+messages:
+    "no-permission":
+        sound:
+            enabled: true
+            value: "FIZZ"
+            volume: 1
+            pitch: 1
+        message:
+            enabled: true
+            value:
+                - "&c&lAbyss &8- &cYou don't have permission to do this."
+    "limit-reached":
+        sound:
+            enabled: true
+            value: "FIZZ"
+            volume: 1
+            pitch: 1
+        message:
+            enabled: true
+            value:
+                - "&c&lAbyss &8- &cYou have reached the limit for this voucher."
+    "admin-help":
+        sound:
+            enabled: true
+            value: "BLOCK_NOTE_PLING"
+            volume: 1
+            pitch: 1
+        message:
+            enabled: true
+            value:
+                - "&3&m-------------------------------------"
+                - " "
+                - "&b&lAbyss&3&lVouchers &8&l┃ &bAdmin Help"
+                - "&7&oMade by &f&oRelocation#0001&7&o."
+                - " "
+                - "&7&o<> = Required"
+                - "&7&o[] = Optional"
+                - " "
+                - "&3&lADMIN COMMANDS:"
+                - "&3&l» &b/vouchers give <player> <voucher> <amount>"
+                - " "
+                - "&3&m-------------------------------------"
+    "voucher-given":
+        sound:
+            enabled: true
+            value: "BLOCK_NOTE_PLING"
+            volume: 1
+            pitch: 1
+        message:
+            enabled: true
+            value:
+                - "&b&lAbyss &8- &bYou have given &3%player% %amount%x %type%&b voucher(s)."
+    "voucher-received":
+        sound:
+            enabled: true
+            value: "BLOCK_NOTE_PLING"
+            volume: 1
+            pitch: 1
+        message:
+            enabled: true
+            value:
+                - "&b&lAbyss &8- &bYou have received &3%amount%x %type%&b voucher(s)."

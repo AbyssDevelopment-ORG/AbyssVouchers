@@ -1,0 +1,31 @@
+vouchers:
+    "example":
+        material: "COAL"
+        name: "&8Coal &7(Right-Click to crush)"
+        lore:
+            - " "
+            - "&8Information"
+            - "&8- &7Action: &fCrush"
+            - "&8- &7Result: &fChance to uncover a diamond"
+            - " "
+            - "&7&o(( Crush this coal to have a chance to find a diamond! ))"
+        permission: "abyssvouchers.example"
+        limit: -1
+        reward-settings:
+            min: 1
+            max: 1
+            rewards:
+                "diamond":
+                    chance: 50
+                    message:
+                        sound:
+                            enabled: true
+                            value: "BLOCK_NOTE_PLING"
+                            volume: 1
+                            pitch: 1
+                        message:
+                            enabled: true
+                            value:
+                                - "&4&l[&c&lCRUSHED&4&l] &cYou have received &41x Diamond&c from crushing coal."
+                    commands:
+                        - "give %player% diamond 1"
